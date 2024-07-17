@@ -1,0 +1,5 @@
+# requirements.txt
+requests
+yfinance
+pandas
+python-dotenv
