@@ -1,0 +1,47 @@
+<!-- /src/templates/results.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Data Results</title>
+</head>
+<body>
+    <h1>Stock Data Results</h1>
+    
+    <h2>Real-time Data</h2>
+    <table border="1">
+        <tr>
+            {% for key in realtime_data.keys() %}
+            <th>{{ key }}</th>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for value in realtime_data.values() %}
+            <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+    </table>
+
+    <h2>Historical Data Chart</h2>
+    <img src="data:image/png;base64,{{ chart }}" alt="Stock Price Chart">
+
+    <h2>Historical Data</h2>
+    <table border="1">
+        <tr>
+            {% for key in historical_data[0].keys() %}
+            <th>{{ key }}</th>
+            {% endfor %}
+        </tr>
+        {% for row in historical_data %}
+        <tr>
+            {% for value in row.values() %}
+            <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+    <a href="/">Back to Form</a>
+</body>
+</html>

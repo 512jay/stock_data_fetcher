@@ -1,4 +1,4 @@
-# /src/utils/logging_config.py
+# /src/stock_data_fetcher/utils/logging_config.py
 
 import logging
 import os
@@ -14,8 +14,11 @@ def setup_logging(log_file='stock_data_fetcher.log'):
     Returns:
         logging.Logger: Configured logger object.
     """
+    # Get the project root directory
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+    
     # Create logs directory if it doesn't exist
-    log_dir = 'logs'
+    log_dir = os.path.join(project_root, 'logs')
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 

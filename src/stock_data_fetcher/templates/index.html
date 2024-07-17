@@ -1,0 +1,35 @@
+<!-- /src/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Data Fetcher</title>
+</head>
+<body>
+    <h1>Stock Data Fetcher</h1>
+    {% if error %}
+    <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <label for="api">API:</label>
+        <select name="api" id="api" required>
+            <option value="alpha_vantage">Alpha Vantage</option>
+            <option value="yahoo_finance">Yahoo Finance</option>
+            <option value="iex_cloud">IEX Cloud</option>
+            <option value="quandl">Quandl</option>
+        </select><br><br>
+
+        <label for="symbol">Stock Symbol:</label>
+        <input type="text" name="symbol" id="symbol" required><br><br>
+
+        <label for="start_date">Start Date:</label>
+        <input type="date" name="start_date" id="start_date" required><br><br>
+
+        <label for="end_date">End Date:</label>
+        <input type="date" name="end_date" id="end_date" required><br><br>
+
+        <input type="submit" value="Fetch Data">
+    </form>
+</body>
+</html>
