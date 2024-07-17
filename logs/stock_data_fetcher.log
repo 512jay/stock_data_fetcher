@@ -1,0 +1,405 @@
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:52:54,567 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:53:01,699 - StockDataFetcher - WARNING - Invalid date format entered: 
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,120 - StockDataFetcher - INFO - Fetching data for AAPL from yahoo_finance
+              between 2024-05-01 and 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,126 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2024-05-01 to 2024-06-01
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,984 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:01,994 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,433 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:54:02,440 - StockDataFetcher - INFO - Successfully fetched data for AAPL
+2024-07-17 13:58:13,533 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 13:58:13,564 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 13:58:13,567 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 13:58:13,569 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 13:58:13,570 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:58:13,572 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 13:58:13,574 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 13:58:13,575 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:04:14,101 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:04:14,101 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: No data found for symbol: INVALID
+2024-07-17 14:04:14,105 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:04:14,106 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:04:14,107 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:04:14,108 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:04:14,109 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:04:14,109 - StockDataFetcher - ERROR - Error fetching real-time data from Yahoo Finance: No data found for symbol: INVALID
+2024-07-17 14:04:14,110 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:04:14,111 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:04:14,112 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:04:14,113 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:05:33,339 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:05:33,340 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: No data found for symbol: INVALID
+2024-07-17 14:05:33,345 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:05:33,346 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:05:33,348 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:05:33,349 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:05:33,350 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:05:33,350 - StockDataFetcher - ERROR - Error fetching real-time data from Yahoo Finance: No data found for symbol: INVALID
+2024-07-17 14:05:33,351 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:05:33,352 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:05:33,353 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:05:33,354 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:11:05,798 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:11:05,799 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:11:05,800 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:11:05,801 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:11:05,802 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:11:05,803 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:11:05,804 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:11:05,805 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:11:05,807 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:11:05,808 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:12:58,550 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:12:58,551 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:12:58,553 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:12:58,554 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:12:58,556 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:12:58,557 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:12:58,560 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:12:58,561 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:12:58,563 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:12:58,565 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:12:58,568 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:12:58,568 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:15:39,347 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:15:39,348 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:15:39,349 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:15:39,349 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:15:39,352 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:15:39,352 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:15:39,354 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:15:39,355 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:15:39,356 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:15:39,356 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:15:39,357 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:15:39,358 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:18:02,993 - StockDataFetcher - INFO - Running test: test_get_historical_data_empty
+2024-07-17 14:18:02,993 - StockDataFetcher - INFO - Running test: test_get_historical_data_empty
+2024-07-17 14:18:02,995 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:18:02,995 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:18:02,996 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:18:02,996 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:18:02,997 - StockDataFetcher - INFO - Running test: test_get_historical_data_error
+2024-07-17 14:18:02,997 - StockDataFetcher - INFO - Running test: test_get_historical_data_error
+2024-07-17 14:18:02,998 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:18:02,998 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:18:02,999 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:18:02,999 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:18:03,000 - StockDataFetcher - INFO - Running test: test_get_historical_data_success
+2024-07-17 14:18:03,000 - StockDataFetcher - INFO - Running test: test_get_historical_data_success
+2024-07-17 14:18:03,002 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:18:03,002 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:18:03,003 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:18:03,003 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:18:03,004 - StockDataFetcher - INFO - Running test: test_get_realtime_data_empty
+2024-07-17 14:18:03,004 - StockDataFetcher - INFO - Running test: test_get_realtime_data_empty
+2024-07-17 14:18:03,005 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:18:03,005 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:18:03,006 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:18:03,006 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:18:03,007 - StockDataFetcher - INFO - Running test: test_get_realtime_data_error
+2024-07-17 14:18:03,007 - StockDataFetcher - INFO - Running test: test_get_realtime_data_error
+2024-07-17 14:18:03,007 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:18:03,007 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:18:03,008 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:18:03,008 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:18:03,009 - StockDataFetcher - INFO - Running test: test_get_realtime_data_success
+2024-07-17 14:18:03,009 - StockDataFetcher - INFO - Running test: test_get_realtime_data_success
+2024-07-17 14:18:03,010 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:18:03,010 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:18:03,011 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:18:03,011 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:19:40,225 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:19:40,225 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:19:40,227 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:19:40,227 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:19:40,228 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:19:40,228 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:19:40,228 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:19:40,228 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:19:40,229 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,229 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,229 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:19:40,229 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:19:40,230 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:19:40,230 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:19:40,231 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:19:40,231 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:19:40,231 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:19:40,231 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:19:40,232 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,232 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,232 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:19:40,232 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:19:40,235 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:19:40,235 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:19:40,235 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:19:40,235 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:19:40,236 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:19:40,236 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:19:40,237 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,237 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,237 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:19:40,237 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:19:40,239 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:19:40,239 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:19:40,239 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:19:40,239 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:19:40,240 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:19:40,240 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:19:40,241 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,241 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,242 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:19:40,242 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:19:40,243 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:19:40,243 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:19:40,243 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:19:40,243 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:19:40,244 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:19:40,244 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:19:40,245 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,245 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,245 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:19:40,245 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:19:40,246 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:19:40,246 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:19:40,247 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:19:40,247 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:19:40,248 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:19:40,248 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:19:40,249 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:19:40,249 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,699 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:20:30,699 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:20:30,699 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:20:30,699 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:20:30,699 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:20:30,699 - StockDataFetcher - INFO - Starting test: test_get_historical_data_empty
+2024-07-17 14:20:30,703 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,703 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,703 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,703 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,703 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,703 - StockDataFetcher - INFO - Fetching historical data for INVALID from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,707 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,707 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,707 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,707 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,707 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,707 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,709 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:20:30,709 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:20:30,709 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:20:30,709 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:20:30,709 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:20:30,709 - StockDataFetcher - INFO - Finished test: test_get_historical_data_empty
+2024-07-17 14:20:30,711 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,711 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,711 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,711 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,711 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,711 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,714 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:20:30,714 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:20:30,714 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:20:30,714 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:20:30,714 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:20:30,714 - StockDataFetcher - INFO - Starting test: test_get_historical_data_error
+2024-07-17 14:20:30,716 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,716 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,716 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,716 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,716 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,716 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,718 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:20:30,718 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:20:30,718 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:20:30,718 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:20:30,718 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:20:30,718 - StockDataFetcher - ERROR - Error fetching data from Yahoo Finance: API Error
+2024-07-17 14:20:30,720 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:20:30,720 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:20:30,720 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:20:30,720 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:20:30,720 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:20:30,720 - StockDataFetcher - INFO - Finished test: test_get_historical_data_error
+2024-07-17 14:20:30,722 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,722 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,722 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,722 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,722 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,722 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,724 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:20:30,724 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:20:30,724 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:20:30,724 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:20:30,724 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:20:30,724 - StockDataFetcher - INFO - Starting test: test_get_historical_data_success
+2024-07-17 14:20:30,727 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,727 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,727 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,727 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,727 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,727 - StockDataFetcher - INFO - Fetching historical data for AAPL from 2023-01-01 to 2023-01-02
+2024-07-17 14:20:30,729 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:20:30,729 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:20:30,729 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:20:30,729 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:20:30,729 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:20:30,729 - StockDataFetcher - INFO - Successfully fetched historical data for AAPL
+2024-07-17 14:20:30,730 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:20:30,730 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:20:30,730 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:20:30,730 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:20:30,730 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:20:30,730 - StockDataFetcher - INFO - Finished test: test_get_historical_data_success
+2024-07-17 14:20:30,731 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,731 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,731 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,731 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,731 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,731 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,734 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:20:30,734 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:20:30,734 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:20:30,734 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:20:30,734 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:20:30,734 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_empty
+2024-07-17 14:20:30,737 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:20:30,737 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:20:30,737 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:20:30,737 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:20:30,737 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:20:30,737 - StockDataFetcher - INFO - Fetching real-time data for INVALID
+2024-07-17 14:20:30,740 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,740 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,740 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,740 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,740 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,740 - StockDataFetcher - WARNING - No data found for symbol: INVALID
+2024-07-17 14:20:30,741 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:20:30,741 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:20:30,741 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:20:30,741 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:20:30,741 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:20:30,741 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_empty
+2024-07-17 14:20:30,744 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,744 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,744 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,744 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,744 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,744 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,746 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:20:30,746 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:20:30,746 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:20:30,746 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:20:30,746 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:20:30,746 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_error
+2024-07-17 14:20:30,749 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,749 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,749 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,749 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,749 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,749 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,751 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:20:30,751 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:20:30,751 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:20:30,751 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:20:30,751 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:20:30,751 - StockDataFetcher - ERROR - Missing key in Yahoo Finance data: 'change'
+2024-07-17 14:20:30,754 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:20:30,754 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:20:30,754 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:20:30,754 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:20:30,754 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:20:30,754 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_error
+2024-07-17 14:20:30,755 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,755 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,755 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,755 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,755 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,755 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Starting test: test_get_realtime_data_success
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,756 - StockDataFetcher - INFO - Fetching real-time data for AAPL
+2024-07-17 14:20:30,761 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:20:30,761 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:20:30,761 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:20:30,761 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:20:30,761 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:20:30,761 - StockDataFetcher - INFO - Successfully fetched real-time data for AAPL
+2024-07-17 14:20:30,763 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:20:30,763 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:20:30,763 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:20:30,763 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:20:30,763 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:20:30,763 - StockDataFetcher - INFO - Finished test: test_get_realtime_data_success
+2024-07-17 14:20:30,765 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,765 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,765 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,765 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,765 - StockDataFetcher - INFO - ----------------------------------------
+2024-07-17 14:20:30,765 - StockDataFetcher - INFO - ----------------------------------------

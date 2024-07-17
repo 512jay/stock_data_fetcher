@@ -1,12 +1,16 @@
-# src/data_sources/yahoo_finance.py
+# /src/data_sources/yahoo_finance.py
+
+import yfinance as yf  # type: ignore
 from typing import Any, Dict, List
-
 from .base import DataSource
+from ..utils.exceptions import StockDataFetcherError, InvalidSymbolError
+from ..utils.logging_config import setup_logging
 
+logger = setup_logging()
 
 class YahooFinanceDataSource(DataSource):
     """
-    Yahoo Finance data source implementation.
+    Yahoo Finance data source implementation using the yfinance library.
     """
 
     def __init__(self):
@@ -25,27 +29,29 @@ class YahooFinanceDataSource(DataSource):
 
         Returns:
             List[Dict[str, Any]]: A list of dictionaries containing the historical data.
+
+        Raises:
+            InvalidSymbolError: If no data is found for the given symbol.
+            StockDataFetcherError: If there's an error fetching or processing data.
         """
-        # TODO: Implement actual API call to Yahoo Finance
-        # This is a placeholder implementation
-        return [
-            {
-                "date": start_date,
-                "open": 100.0,
-                "high": 101.0,
-                "low": 99.0,
-                "close": 100.5,
-                "volume": 1000000,
-            },
-            {
-                "date": end_date,
-                "open": 100.5,
-                "high": 102.0,
-                "low": 100.0,
-                "close": 101.5,
-                "volume": 1200000,
-            },
-        ]
+        try:
+            logger.info(f"Fetching historical data for {symbol} from {start_date} to {end_date}")
+            ticker = yf.Ticker(symbol)
+            df = ticker.history(start=start_date, end=end_date)
+
+            if df.empty:
+                logger.warning(f"No data found for symbol: {symbol}")
+                raise InvalidSymbolError(f"No data found for symbol: {symbol}")
+
+            historical_data = df.reset_index().to_dict('records')
+            logger.info(f"Successfully fetched historical data for {symbol}")
+            return historical_data
+
+        except InvalidSymbolError:
+            raise
+        except Exception as e:
+            logger.error(f"Error fetching data from Yahoo Finance: {str(e)}")
+            raise StockDataFetcherError(f"Error fetching data from Yahoo Finance: {str(e)}")
 
     def get_realtime_data(self, symbol: str) -> Dict[str, Any]:
         """
@@ -56,14 +62,37 @@ class YahooFinanceDataSource(DataSource):
 
         Returns:
             Dict[str, Any]: A dictionary containing the real-time data.
+
+        Raises:
+            InvalidSymbolError: If no data is found for the given symbol.
+            StockDataFetcherError: If there's an error fetching or processing data.
         """
-        # TODO: Implement actual API call to Yahoo Finance
-        # This is a placeholder implementation
-        return {
-            "symbol": symbol,
-            "price": 150.5,
-            "change": 0.5,
-            "change_percent": 0.33,
-            "volume": 500000,
-            "last_updated": "2023-05-10T12:00:00Z",
-        }
+        try:
+            logger.info(f"Fetching real-time data for {symbol}")
+            ticker = yf.Ticker(symbol)
+            info = ticker.info
+
+            if not info:
+                logger.warning(f"No data found for symbol: {symbol}")
+                raise InvalidSymbolError(f"No data found for symbol: {symbol}")
+
+            realtime_data = {
+                "symbol": symbol,
+                "price": info['currentPrice'],
+                "change": info['change'],
+                "change_percent": info['changePercent'],
+                "volume": info['volume'],
+                "last_updated": info['regularMarketTime'],
+            }
+
+            logger.info(f"Successfully fetched real-time data for {symbol}")
+            return realtime_data
+
+        except KeyError as e:
+            logger.error(f"Missing key in Yahoo Finance data: {str(e)}")
+            raise StockDataFetcherError(f"Error processing data from Yahoo Finance: {str(e)}")
+        except InvalidSymbolError:
+            raise
+        except Exception as e:
+            logger.error(f"Error fetching real-time data from Yahoo Finance: {str(e)}")
+            raise StockDataFetcherError(f"Error fetching real-time data from Yahoo Finance: {str(e)}")
