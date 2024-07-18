@@ -5,15 +5,18 @@ from typing import Any, Dict, List
 
 import yfinance as yf
 
-from stock_data_fetcher.data_sources.base import DataSource
-
 from ..utils.exceptions import InvalidSymbolError, StockDataFetcherError
 from ..utils.logging_config import setup_logging
+from .base import DataSource
 
 logger = setup_logging()
 
 
 class YahooFinanceDataSource(DataSource):
+    """
+    Yahoo Finance data source implementation.
+    """
+
     def __init__(self):
         self.name = "Yahoo Finance"
 
@@ -67,12 +70,13 @@ class YahooFinanceDataSource(DataSource):
             df = df.reset_index()
 
             # Check if 'Date' or 'Datetime' column exists
-            date_column = "Date" if "Date" in df.columns else "Datetime"
-            if date_column not in df.columns:
-                logger.error(f"'{date_column}' column not found in the data")
+            date_column = next(
+                (col for col in df.columns if col.lower() in ["date", "datetime"]), None
+            )
+            if not date_column:
+                logger.error("Date/Datetime column not found in the data")
                 raise StockDataFetcherError(
-                    f"""'{date_column}' column not found
-                                             in the data"""
+                    "Date/Datetime column not found in the data"
                 )
 
             # Convert Date column to string
@@ -102,12 +106,19 @@ class YahooFinanceDataSource(DataSource):
         except Exception as e:
             logger.error(f"Error fetching data from Yahoo Finance: {str(e)}")
             raise StockDataFetcherError(
-                f"""Error fetching data from Yahoo
-                                         Finance: {str(e)}"""
+                f"Error fetching data from Yahoo Finance: {str(e)}"
             )
 
     def _get_interval(self, granularity: str) -> str:
-        """Convert granularity to yfinance interval format."""
+        """
+        Convert granularity to yfinance interval format.
+
+        Args:
+            granularity (str): The input granularity.
+
+        Returns:
+            str: The corresponding yfinance interval.
+        """
         granularity_map = {
             "1m": "1m",
             "5m": "5m",
@@ -124,7 +135,19 @@ class YahooFinanceDataSource(DataSource):
         return granularity_map.get(granularity, "1d")
 
     def get_realtime_data(self, symbol: str) -> Dict[str, Any]:
-        """Retrieve real-time data for a given symbol from Yahoo Finance."""
+        """
+        Retrieve real-time data for a given symbol from Yahoo Finance.
+
+        Args:
+            symbol (str): The stock symbol to retrieve data for.
+
+        Returns:
+            Dict[str, Any]: A dictionary containing the real-time data.
+
+        Raises:
+            InvalidSymbolError: If no data is found for the given symbol.
+            StockDataFetcherError: If there's an error fetching or processing the data.
+        """
         try:
             logger.info(f"Fetching real-time data for {symbol}")
             ticker = yf.Ticker(symbol)
@@ -136,14 +159,17 @@ class YahooFinanceDataSource(DataSource):
 
             realtime_data = {
                 "symbol": symbol,
-                "price": info.get("currentPrice", None),
-                "change": info.get("change", None),
-                "change_percent": info.get("changePercent", None),
-                "volume": info.get("volume", None),
-                "last_updated": info.get("regularMarketTime", None),
+                "price": info.get("currentPrice"),
+                "change": info.get("change"),
+                "change_percent": info.get("changePercent"),
+                "volume": info.get("volume"),
+                "last_updated": info.get("regularMarketTime"),
             }
 
-            realtime_data = {k: v for k, v in realtime_data.items() if v is not None}
+            # Check if any required field is missing
+            if any(value is None for value in realtime_data.values()):
+                logger.error(f"Incomplete real-time data for {symbol}")
+                raise StockDataFetcherError(f"Incomplete real-time data for {symbol}")
 
             logger.info(f"Successfully fetched real-time data for {symbol}")
             return realtime_data

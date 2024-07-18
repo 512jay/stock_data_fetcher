@@ -1,6 +1,6 @@
 # src/data_sources/base.py
 from abc import ABC, abstractmethod
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 
 class DataSource(ABC):
@@ -9,6 +9,15 @@ class DataSource(ABC):
     All concrete data source classes should inherit from this class and implement
     its methods.
     """
+
+    def __init__(self, api_key: Optional[str] = None):
+        """
+        Initialize the DataSource.
+
+        Args:
+            api_key (Optional[str]): The API key for the data source, if required.
+        """
+        self.api_key = api_key
 
     @abstractmethod
     def get_historical_data(
