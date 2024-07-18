@@ -1,13 +1,15 @@
-# /src/data_sources/investing_com.py
+# /src/stock_data_fetcher/data_sources/investing_com.py
 
-from typing import Any, Dict, List
-from datetime import datetime, timedelta
 import random
-from .base import DataSource
+from datetime import datetime, timedelta
+from typing import Any, Dict, List
+
+from ..utils.exceptions import DataSourceError, DateRangeError, InvalidSymbolError
 from ..utils.logging_config import setup_logging
-from ..utils.exceptions import DataSourceError, InvalidSymbolError, DateRangeError
+from .base import DataSource
 
 logger = setup_logging()
+
 
 class InvestingComDataSource(DataSource):
     """
@@ -18,7 +20,7 @@ class InvestingComDataSource(DataSource):
         self.name = "Investing.com"
 
     def get_historical_data(
-        self, symbol: str, start_date: str, end_date: str
+        self, symbol: str, start_date: str, end_date: str, granularity: str = "1d"
     ) -> List[Dict[str, Any]]:
         """
         Retrieve mock historical data for a given symbol and date range.
@@ -27,42 +29,56 @@ class InvestingComDataSource(DataSource):
             symbol (str): The stock symbol to retrieve data for.
             start_date (str): The start date for the data range (format: YYYY-MM-DD).
             end_date (str): The end date for the data range (format: YYYY-MM-DD).
+            granularity (str): The time interval between data points. Default is '1d'.
 
         Returns:
-            List[Dict[str, Any]]: A list of dictionaries containing the mock historical data.
+            List[Dict[str, Any]]: A list of dictionaries containing the mock data.
 
         Raises:
             InvalidSymbolError: If the provided symbol is invalid.
             DateRangeError: If the provided date range is invalid.
             DataSourceError: If there's an error generating mock data.
         """
-        logger.info(f"Generating mock historical data for {symbol} from {start_date} to {end_date}")
-        
+        logger.info(
+            f"Generating mock data for {symbol} from {start_date} to {end_date}"
+        )
+
         try:
             start = datetime.strptime(start_date, "%Y-%m-%d")
             end = datetime.strptime(end_date, "%Y-%m-%d")
-            
+
             if start > end:
                 raise DateRangeError("Start date must be before end date")
-            
+
             current_date = start
             base_price = random.uniform(50, 200)
             historical_data = []
 
             while current_date <= end:
                 price = base_price + random.uniform(-5, 5)
-                historical_data.append({
-                    "date": current_date.strftime("%Y-%m-%d"),
-                    "open": round(price, 2),
-                    "high": round(price * (1 + random.uniform(0, 0.02)), 2),
-                    "low": round(price * (1 - random.uniform(0, 0.02)), 2),
-                    "close": round(price * (1 + random.uniform(-0.01, 0.01)), 2),
-                    "volume": random.randint(100000, 1000000)
-                })
+                historical_data.append(
+                    {
+                        "date": current_date.strftime("%Y-%m-%d"),
+                        "open": round(price, 2),
+                        "high": round(price * (1 + random.uniform(0, 0.02)), 2),
+                        "low": round(price * (1 - random.uniform(0, 0.02)), 2),
+                        "close": round(price * (1 + random.uniform(-0.01, 0.01)), 2),
+                        "volume": random.randint(100000, 1000000),
+                    }
+                )
                 current_date += timedelta(days=1)
-                base_price = historical_data[-1]["close"]
+                close_value = historical_data[-1]["close"]
+                if isinstance(close_value, (int, float)):
+                    base_price = float(close_value)
+                else:
+                    logger.warning(f"""Unexpected 'close' value type:
+                                    {type(close_value)}""")
+                    base_price = price  # Fallback to using the previous price
 
-            logger.info(f"Successfully generated {len(historical_data)} data points for {symbol}")
+            logger.info(
+                f"Successfully generated {len(historical_data)} "
+                f"data points for {symbol}"
+            )
             return historical_data
 
         except ValueError as e:
@@ -87,7 +103,7 @@ class InvestingComDataSource(DataSource):
             DataSourceError: If there's an error generating mock data.
         """
         logger.info(f"Generating mock real-time data for {symbol}")
-        
+
         try:
             if not symbol or not isinstance(symbol, str):
                 raise InvalidSymbolError("Invalid symbol provided")
@@ -100,7 +116,7 @@ class InvestingComDataSource(DataSource):
                 "change": round(change, 2),
                 "change_percent": round((change / price) * 100, 2),
                 "volume": random.randint(100000, 1000000),
-                "last_updated": datetime.now().isoformat()
+                "last_updated": datetime.now().isoformat(),
             }
 
             logger.info(f"Successfully generated mock real-time data for {symbol}")

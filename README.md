@@ -4,10 +4,11 @@ A Python application for fetching historical and real-time stock data from vario
 
 ## Features
 
-- Fetch historical stock data for a specified date range
+- Fetch historical stock data for a specified date range and granularity
 - Retrieve real-time stock data
 - Support for multiple data sources (Yahoo Finance, Alpha Vantage, etc.)
 - Command-line interface for easy data retrieval
+- Web interface for interactive use
 
 ## Setup
 
@@ -37,13 +38,58 @@ A Python application for fetching historical and real-time stock data from vario
 
 ## Usage
 
-Run the main script with optional arguments:
+There are several ways to run the Stock Data Fetcher:
+
+### 1. As a Python module (recommended)
+
+This method works best for both the command-line interface and the web interface:
 
 ```sh
-python -m src.main --api yahoo_finance --symbol AAPL
+# For the command-line interface
+python -m src.stock_data_fetcher.main --api yahoo_finance --symbol AAPL --granularity 1d
+
+# For the web interface
+python -m src.stock_data_fetcher.main --web
 ```
 
+### 2. Directly running the main script
+
+You can also run the main script directly, but you might need to adjust your `PYTHONPATH`:
+
+```sh
+# Set PYTHONPATH (you might want to add this to your .bashrc or .bash_profile)
+export PYTHONPATH=$PYTHONPATH:/path/to/stock_data_fetcher
+
+# Then run the script
+python src/stock_data_fetcher/main.py --api yahoo_finance --symbol AAPL --granularity 1d
+```
+
+### 3. Using the installed package
+
+If you've installed the package (e.g., with `pip install -e .`), you can use the entry point:
+
+```sh
+stock_data_fetcher --api yahoo_finance --symbol AAPL --granularity 1d
+```
+
+## Command-line Arguments
+
+- `--api`: The name of the API to use (e.g., yahoo_finance, alpha_vantage)
+- `--symbol`: The stock symbol to fetch data for (e.g., AAPL)
+- `--granularity`: Data granularity (e.g., 1m, 5m, 1h, 1d)
+- `--web`: Run the web interface
+
 If you don't provide command-line arguments, the script will prompt you for the necessary information.
+
+## Web Interface
+
+To start the web interface, run:
+
+```sh
+python -m src.stock_data_fetcher.main --web
+```
+
+Then open a web browser and navigate to `http://localhost:5000`.
 
 ## Running Tests
 
@@ -55,11 +101,7 @@ python -m unittest discover tests
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
@@ -67,6 +109,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Jay - [@512jay](https://x.com/512jay) - 512jay@gmail.com
 
 Project Link: [https://github.com/512jay/stock_data_fetcher](https://github.com/512jay/stock_data_fetcher)

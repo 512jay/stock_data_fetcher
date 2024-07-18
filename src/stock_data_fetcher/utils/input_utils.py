@@ -1,10 +1,12 @@
 # /src/utils/input_utils.py
 
+import re
 from datetime import datetime
+
 from .logging_config import setup_logging
-from .exceptions import DateRangeError
 
 logger = setup_logging()
+
 
 def get_date_input(prompt: str) -> str:
     """
@@ -27,3 +29,17 @@ def get_date_input(prompt: str) -> str:
         except ValueError:
             logger.warning(f"Invalid date format entered: {date_str}")
             print("Invalid date format. Please use YYYY-MM-DD.")
+
+
+def validate_symbol(symbol: str) -> bool:
+    """
+    Validate the given stock symbol.
+
+    Args:
+        symbol (str): The stock symbol to validate.
+
+    Returns:
+        bool: True if the symbol is valid, False otherwise.
+    """
+    pattern = r"^[A-Z]{1,5}$"
+    return bool(re.match(pattern, symbol))

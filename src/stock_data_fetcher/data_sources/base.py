@@ -12,7 +12,7 @@ class DataSource(ABC):
 
     @abstractmethod
     def get_historical_data(
-        self, symbol: str, start_date: str, end_date: str
+        self, symbol: str, start_date: str, end_date: str, granularity: str
     ) -> List[Dict[str, Any]]:
         """
         Retrieve historical data for a given symbol and date range.
@@ -21,6 +21,7 @@ class DataSource(ABC):
             symbol (str): The stock symbol to retrieve data for.
             start_date (str): The start date for the data range (format: YYYY-MM-DD).
             end_date (str): The end date for the data range (format: YYYY-MM-DD).
+            granularity (str): The granularity of the data (e.g., "1d", "1h", "5m").
 
         Returns:
             List[Dict[str, Any]]: A list of dictionaries containing the historical data.
@@ -30,7 +31,6 @@ class DataSource(ABC):
     @abstractmethod
     def get_realtime_data(self, symbol: str) -> Dict[str, Any]:
         """
-        Not currently implemented.
         Retrieve real-time data for a given symbol.
 
         Args:
